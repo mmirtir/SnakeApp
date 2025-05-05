@@ -9,7 +9,7 @@ public class Main {
        System.out.println("~@~@~@~@~@~@~@~@~@~");
        */
 Scanner sc = new Scanner(System.in);
-
+/*
         System.out.println("Write your nickname: ");
         String name = sc.nextLine();
 
@@ -64,6 +64,11 @@ Scanner sc = new Scanner(System.in);
                 "\narmor type = " + At +
                 "\nmagic sword = " + sword +
                 "\nElent = " + E);
+ */
+
+            System.out.println("введите сумму в злотых");
+            float ZL = sc.nextFloat();
+            System.out.println("ваша сумма в евро: " + ZL  * 4.5);
 
     }
 }
